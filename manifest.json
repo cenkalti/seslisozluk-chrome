@@ -3,7 +3,7 @@
 
    "name": "SesliSozluk",
    "description": "Sayfada secili yaziyi diger dillere cevirir.",
-   "version": "1.2.2",
+   "version": "1.2.3",
    
    "permissions": [ "tabs", "http://*.seslisozluk.com/" ],
    "browser_action": {
