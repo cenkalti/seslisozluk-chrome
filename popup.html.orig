@@ -1,0 +1,21 @@
+<html>
+  <head>
+  </head>
+  <body>
+	<!--<iframe id="main" frameborder="0" width="300" height="300"></iframe>-->
+	<form action="http://m.seslisozluk.com/" method="GET">
+		<input type="text" name="word" />
+		<input type="submit" />
+	</form>
+    <script>			
+		function onSelectedText(response){
+			document.getElementById('main').src = 
+				"http://m.seslisozluk.com/?word=" + encodeURIComponent(response.selected_text);
+		};
+		
+		//chrome.tabs.getSelected(null, function(tab) {
+		//	chrome.tabs.sendRequest(tab.id, {action: "get_selected_text"}, onSelectedText);
+		//});
+    </script>
+  </body>
+</html>
