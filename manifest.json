@@ -22,6 +22,5 @@
       "48": "icon48.png"
    },
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKaU+TG/6MJjnHc/D5EVKGGyr5NRmbzV2qgNhYDVKT0m6VfuiNarR+jA7Wasg35dPqeSbM40EtLA7+dbPY4Y4MegBbNS08qAlHm8cqZsxUl78BBkXyxMDBSwMCJgN8L0z5CUEY5eJU9Zc/zdqAuT91TjiUKUPsMLQ434btwZjBqwIDAQAB",
-   "options_page": "options.html",
-   "update_url": "http://clients2.google.com/service/update2/crx"
+   "options_page": "options.html"
 }
